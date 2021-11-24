@@ -1,0 +1,104 @@
+html, body{
+    height: 100%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    color: white;
+}
+
+main{
+    height: 100%;
+    display: flex;
+}
+
+div{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h2{
+    display: flex;
+}
+
+h2 img{
+    height: 35rem;
+    width: 50rem;
+}
+
+h3{
+    display: block;
+    margin: 1rem;
+    border: .2rem solid #C0CDE8;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: .5rem;
+    font-size: 6rem;
+    width: 75%;
+    text-align: center;
+    color: #789AE3;
+}
+
+h3 img{
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+.salvar{
+    height: 6rem;
+    width: 9rem;
+}
+
+body{
+    font-family: 'Source Serif Pro', serif;
+}
+
+.voltar{
+    display: flex;
+    border: 0;
+    left: 2rem;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.imagem{
+    width: 5rem;
+    height: 5rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.check{
+    height: 10rem;
+    width: 10rem;
+}
+
+header{
+    padding: 2rem;
+    background-color: #5F7AB3;
+}
+
+.menu{
+    display: flex;
+    border: 0;
+    right: 2rem;
+    top: 2rem;
+    width: 5rem;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}

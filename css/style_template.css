@@ -1,0 +1,73 @@
+html, body, main{
+    height: 100%;
+    font-family: 'Source Serif Pro', serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+    background-color: #5F7AB3;
+}
+
+img{
+    height: 26rem;
+    width: 26rem;
+}
+
+h2{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    display: block;
+    margin: 1rem;
+    border: .1rem solid #789AE3;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: .5rem;
+    font-size: 6rem;
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+h1{
+    padding: 2rem;
+    color: white;
+}
+
+.imagem{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.voltar{
+    display: flex;
+    border: 0;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.x{
+    height: 25rem;
+    width: 25rem;
+}
+
+.dir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
