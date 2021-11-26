@@ -23,6 +23,7 @@ main{
 }
 
 h2{
+    flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,6 +38,7 @@ a{
 
 ul{
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     font-size: 3rem;
     padding: 4rem;
@@ -56,7 +58,10 @@ li{
     display: flex;
     flex-direction: column;
     color: #789AE3;
+    justify-content: space-evenly;
+    flex-grow: 1;
 }
+
 .voltar{
     display: flex;
     border: 0;
