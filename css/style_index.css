@@ -26,17 +26,16 @@ li{
 }
 
 a{
-    display: flex;
+    display: block;
     margin: 1rem;
     border: .2rem solid #C0CDE8;
     padding: 1rem 1rem 1rem 1rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
     font-size: 6rem;
     width: 75%;
     text-align: center;
-    align-items: center ;
-    color: #789ae3;
-    font-family: 'Source Serif Pro', serif; 
+    color: #789AE3;
+    font-family: 'Source Serif Pro', serif;
 }
 
 img{
