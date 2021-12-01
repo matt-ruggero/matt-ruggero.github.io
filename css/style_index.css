@@ -40,6 +40,7 @@ a{
 }
 
 img{
+    padding-top: .5rem;
     width: 5rem;
     height: 5rem;
     display: flex;
@@ -53,7 +54,7 @@ img{
     width: 10%;
     flex-grow: 0;
     position: absolute;
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 h1{
@@ -75,8 +76,9 @@ header{
 }
 
 .x{
-    height: 25rem;
-    width: 25rem;
+    top: 20rem;
+    height: 15rem;
+    width: 15rem;
 }
 
 .dir{

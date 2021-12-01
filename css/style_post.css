@@ -5,7 +5,7 @@ html, body{
 }
 header{
     padding: 2rem;
-    font-size: 6rem;
+    font-size: 7rem;
     text-align: center;
     background-color: #5F7AB3;
 }
@@ -65,9 +65,9 @@ li{
 .voltar{
     display: flex;
     border: 0;
-    left: 2rem;
+    left: 1.5rem;
     width: 5rem;
-    height: 4rem;
+    height: 5rem;
     justify-content: center;
     align-items: center;
     position: absolute;
@@ -84,8 +84,8 @@ li{
 }
 
 .x{
-    height: 25rem;
-    width: 25rem;
+    height: 15rem;
+    width: 15rem;
 }
 
 .dir{
